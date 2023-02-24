@@ -9,10 +9,10 @@ export function getOrbitalPeriodsSum(data) {
   const asteroidOrbital = data.asteroids
     .map(asteroid => {
       return asteroid.orbitalPeriod;
-    })
+    });
   return asteroidOrbital.reduce(function (acc, val) {
     return acc + val;
-  })
+  });
 }
 
 
