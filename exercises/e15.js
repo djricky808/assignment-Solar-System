@@ -11,7 +11,7 @@ export function getPlanetsWithNoMoons(data) {
       if (!planet.moons) {
         return planet;
       }
-    })
+    });
   return planetWithoutMoons.map(planet => {
     return planet.name;
     });

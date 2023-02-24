@@ -12,7 +12,7 @@ export function getAveragePlanetsTemperature(data) {
     })
   return allTemps.reduce(function(acc, val) {
       return (acc + val);
-  })/allTemps.length;
+  }) / allTemps.length;
 }
 
 

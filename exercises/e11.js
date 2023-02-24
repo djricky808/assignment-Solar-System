@@ -7,8 +7,8 @@ import { data } from "../data/data";
 
 export function lowMoonsPlanets(data) {
   // Your code goes here...
-  const planetsWithLessThan10Moons = data.planets.filter(planet =>{
-    if (planet.moons){
+  const planetsWithLessThan10Moons = data.planets.filter(planet => {
+    if (planet.moons) {
       if (planet.moons.length < 10) {
         return planet; 
       }
